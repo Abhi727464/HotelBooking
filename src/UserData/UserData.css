@@ -1,0 +1,51 @@
+.view-container{
+    width: 67%;
+    height: 50vh;
+    margin: 30px auto;
+    background: #16191d;
+    box-shadow: 0 4px 8px 0 rgba(103, 127, 154, 0.2);
+    transition: 0.3s;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  .table{
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      border-collapse: collapse;
+  }
+  
+  .tablehead{
+      color: aquamarine;
+     
+     
+  }
+  .newuser{
+      text-align: center;
+      font-size: 40px;
+      color: white;
+      margin-top: 20px;
+  }
+  .confirmbtn{
+    background-color: rgb(1, 161, 1);
+    width: 80px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    
+  }
+  .deletebtn{
+    background-color: red;
+    width: 80px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin: 20px;
+  }

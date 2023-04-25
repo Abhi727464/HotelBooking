@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(35, 35, 35);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #18282b;
+  color: rgb(224, 217, 217);
+}
+.footer p{
+    font-size: 15px;
+}

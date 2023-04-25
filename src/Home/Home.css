@@ -1,0 +1,96 @@
+.container{
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main-container{
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+ .main-head{
+    font-size: 6rem;
+    color: rgb(198, 197, 197);
+    font-weight: 400;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.btn1, .btn2{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    
+}
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-hover {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 45px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+@media (max-width: 798px){
+    .container{
+        background-size: cover;
+    }
+    .main-text h1{
+        font-size: 35px;
+    }
+    .btn1,.btn2{
+      width: 80px;
+    }
+
+    .btn-hover{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .container{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg");
+    }
+}
